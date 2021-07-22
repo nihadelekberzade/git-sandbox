@@ -10,6 +10,7 @@ const user2 = {
   age: 20,
 }
 const getId = (user) => {
+  console.log(user)
   return user.id
 }
 const getName = (user) => {

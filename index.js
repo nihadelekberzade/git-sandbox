@@ -16,3 +16,6 @@ const getId = (user) => {
 const getName = (user) => {
   return user.name
 }
+const getAge = (user) => {
+    return user.age
+}

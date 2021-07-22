@@ -10,8 +10,7 @@ const user2 = {
   age: 20,
 }
 const getId = (user) => {
-  console.log(user)
-  return user.id
+  user && user.id
 }
 const getName = (user) => {
   return user.name

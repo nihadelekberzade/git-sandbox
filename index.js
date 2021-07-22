@@ -3,3 +3,7 @@ const user = {
   name: 'jackson',
   age: 23,
 }
+
+const getId = (user) => {
+  return user.id
+}
